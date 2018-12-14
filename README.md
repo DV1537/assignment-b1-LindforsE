@@ -24,9 +24,3 @@ Instructions:
 5. You should not use any external libraries other than `cmath`, `iostream`, `fstream`, and `strings`. If you wish to use another library please check with the lab assistants first. 
 6. The program should be robust against wrong input data. If there is an error with input file the program should gracefully terminate with an non zero exit code.
 7. Real numbers should be printed with the precision of 3 decimal digits.
-
-
-## Assignment A
-
-The aim of assignment A is to test your understanding on pointers and working with classes. The focus
-is on memory management, class inheritance, encapsulation, and overloading.
