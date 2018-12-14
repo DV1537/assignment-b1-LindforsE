@@ -3,7 +3,7 @@ Instructions:
 - Implement a Figure class enabling grouping of shapes. The Figure class should have the following methods:
 - addShape(Shape s) adds a shape to the group
 - getBoundingBox() calculates the minimum axis-aligned bounding rectangle to fit all the shapes. The method returns the top left and bottom right corners of the box.
-- Update the previous assignment
+
 - Your program should read from a file containing multiple shapes (one per line) and return the top-left and bottom-right corners of the bounding box. The file can contain any number of shapes.
 
 ## General instructions
