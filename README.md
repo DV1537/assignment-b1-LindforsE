@@ -1,15 +1,10 @@
-### A3: Operator overloading & object cloning
+### B1: Polymorphism
 Instructions:
-- Overload the assignment operator `=` that deep copies the object. 
-- Overload the addition operator `+` that makes possible to add more points to a polygon. The added points extend the polygon. 
-- Overload the `<<` operator to print a formatted list of shape vertices
+- Implement a Figure class enabling grouping of shapes. The Figure class should have the following methods:
+-- addShape(Shape s) adds a shape to the group
+-- getBoundingBox() calculates the minimum axis-aligned bounding rectangle to fit all the shapes. The method returns the top left and bottom right corners of the box.
 - Update the previous assignment
-- The program should load two shapes from a file, add them using `+` operator, and print area of the resulting shape. The input file contains two lines, one for each shape	
-Example:
-```
-Input: 	1 1 2 2 2 3
-	0 1.6 0 1	Output: 2.1
-```	
+- Your program should read from a file containing multiple shapes (one per line) and return the top-left and bottom-right corners of the bounding box. The file can contain any number of shapes.
 
 ## General instructions
 
