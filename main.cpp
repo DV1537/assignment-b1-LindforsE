@@ -57,25 +57,6 @@ int main(int argc, const char * argv[])
                 shape2 = true;
             }
 
-            /*
-            //if a number
-            if (myReadFile >> a)
-            {   
-                numbers[n] = a;
-                n++;
-                //if no space in array, expand
-                if (n >= size)
-                {
-                    expand(numbers, size);
-                }
-            }   
-            //if not a number
-            else
-            {
-                myReadFile.clear();
-                myReadFile.ignore(1, ' ');
-            }
-            */
             line2 = true;
         }
     }
